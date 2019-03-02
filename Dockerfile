@@ -1,6 +1,5 @@
 FROM debian:jessie
-MAINTAINER Carles Amigó, fr3nd@fr3nd.net
-
+MAINTAINER Bruno Kraychete da Costa, brunokc@kraychete.com
 
 RUN apt-get update && apt-get install -y \
       autoconf \
